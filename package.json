@@ -5,11 +5,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Lucas O'Connell",
   "license": "ISC",
   "dependencies": {
     "cors-anywhere": "^0.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
