@@ -16,4 +16,4 @@ Implementation of a basic CORS-Anywhere server is very straightforward. Simply d
 
 **Tip:** If hosting on Heroku, a Procfile has already been created in this repository. This instructs the Heroku Node app on how to start the server.
 
-**Note:** Heroku's [acceptable use policy](https://www.heroku.com/policy/aup) forbids the use of an open proxy (see part 6, item XVIII). Therefore, make sure to follow point 2 above. Leaving the array empty authorises all requests and therefore violates the AUP.
+**Note:** Heroku's [acceptable use policy](https://www.heroku.com/policy/aup) forbids the use of an open proxy (see part 6, item XIX). Therefore, make sure to follow point 2 above. Leaving the array empty authorises all requests and therefore violates the AUP.
