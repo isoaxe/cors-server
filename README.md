@@ -10,7 +10,7 @@
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
 
 1. Fork this repository.
-2. Within [index.js](https://github.com/Isoaxe/cors-server/blob/master/functions.index.js#L5), replace the website URLs in the `originWhitelist` array with the web address(es) that you want to authorise. You can keep the first string here as is for local testing (assuming you're using port 3000).
+2. Within [index.js](https://github.com/Isoaxe/cors-server/blob/master/functions/index.js#L5), replace the website URLs in the `originWhitelist` array with the web address(es) that you want to authorise. You can keep the first string here as is for local testing (assuming you're using port 3000).
 3. Navigate to the `functions` directory from the terminal and run `npm install`.
 4. Create a new [Firebase](https://firebase.google.com/) account if you don't already have one.
 5. Install the Firebase CLI by running `npm install -g firebase-tools`.
