@@ -8,7 +8,5 @@ const corsServer = corsAnywhere.createServer({
 });
 
 exports.proxy = functions.https.onRequest((request, response) => {
-  functions.logger.info("Hello logs!", {structuredData: true});
-  corsServer.emit('request', request, response);
-  response.send("Hello from Firebase!");
+    corsServer.emit('request', request, response);
 });
