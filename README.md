@@ -5,6 +5,14 @@
 **Tip:** You can test out the server in this repo locally by using port 3000 in your application and prepending `https://us-central1-private-cors-server.cloudfunctions.net/proxy/` to your API request [like this](https://github.com/Isoaxe/ravenous/blob/master/src/util/searchYelp.js#L6). However, if you want to use for a hosted website, then follow the implementation steps below.
 
 
+# `IMPORTANT NOTICE`
+
+### There are some issues with the remote-hosted version of `cors-server` using Firebase functions. It only works when locally hosted for now.
+
+### It is advised to roll back to the Heroku implementation of this server until the issues are resolved. This Firebase version should be operational well before Heroku [withdraws](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022.
+
+### To roll back, run `git checkout -b heroku 800e4c1beb1705642618b457a578de6acd61e49d` in the CLI from the root `cors-server` directory. The commit hash listed is the one before Firebase was introduced. The command creates a new branch named `heroku` that you can work from.
+
 ## Implementation
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
