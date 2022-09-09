@@ -7,11 +7,11 @@
 
 # `IMPORTANT NOTICE`
 
-### There are some issues with the remote-hosted version of `cors-server` using Firebase functions. It only works when locally hosted for now.
+### There are some issues with the remote-hosted instance of `cors-server` using Firebase functions. It only works when locally hosted for now.
 
-### It is advised to roll back to the Heroku implementation of this server until the issues are resolved. This Firebase version should be operational well before Heroku [withdraws](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022.
+### It is advised to implement the Heroku version of this server until the issues are resolved. The Firebase version should be operational well before Heroku [withdraws](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022.
 
-### To roll back, run `git checkout -b heroku 800e4c1beb1705642618b457a578de6acd61e49d` in the CLI from the root `cors-server` directory. The commit hash listed is the one before Firebase was introduced. The command creates a new branch named `heroku` that you can work from.
+### To do so, follow the `README` in the `heroku` directory. It works exactly the same as before.
 
 ## Implementation
 
