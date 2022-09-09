@@ -11,7 +11,7 @@
 
 ### It is advised to implement the Heroku version of this server until the issues are resolved. The Firebase version should be operational well before Heroku [withdraws](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022.
 
-### To do so, follow the `README` in the `heroku` directory. It works exactly the same as before.
+### To do so, follow the `README` in the `heroku` directory. It works similarly to before, just move all of the files contained therein up a level (i.e. to root) before deployment to Heroku.
 
 ## Implementation
 
