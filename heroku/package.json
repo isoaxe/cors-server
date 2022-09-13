@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js"
+    "watch": "nodemon server.js",
+    "deploy": "git push heroku master --force"
   },
   "author": "Lucas O'Connell",
   "license": "ISC",
