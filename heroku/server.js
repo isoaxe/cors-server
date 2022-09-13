@@ -11,6 +11,8 @@ corsProxy.createServer({
       'http://localhost:5000',
       'https://insta-profile-pic.web.app',
       'https://insta-profile-pic.firebaseapp.com',
+      'https://portfolio-ravenous.web.app',
+      'https://portfolio-ravenous.firebaseapp.com/',
       'https://portfolio-ravenous.herokuapp.com'
     ],
     requireHeader: ['origin', 'x-requested-with'],
