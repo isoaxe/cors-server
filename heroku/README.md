@@ -6,7 +6,7 @@
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
 
-1. Clone or fork this repository.
+1. Fork this repository.
 2. Move all of the files in this directory (except this `README`) to root. Heroku only accepts deployment from the root directory and the `master` or `main` branch.
 3. Within [server.js](https://github.com/Isoaxe/cors-server/blob/master/heroku/server.js#L9), replace the website string in the `originWhitelist` array with the web address(es) that you want to authorise. You can keep the first string here as is for local testing (assuming you're using port 3000).
 4. Now simply upload / push the repo to a hosting provider. I used a free [Heroku](https://id.heroku.com/login) account to create a Node.js app. This can be done without any knowledge of Node, and only a basic familiarity with Git and the command line. Just follow the excellent documentation [here](https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment) (steps 3 to 6 inclusive can be ignored).
