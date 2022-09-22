@@ -10,6 +10,6 @@ _Note:_ Implementing the server via Railway uses the same code as with Heroku, s
 6. Click 'deploy now' on the authorised app.
 7. It will fail. Go to Settings for the deployment in the Railway browser console and change the root directory to `/heroku`.
 8. Click 'enable' under the 'Domains' subsection to assign a public URL to the server and expose it to the internet. It will be of the form `https://private-cors-server.up.railway.app/`.
-9. Prepend the API request in your application code with the server URL as generated in the previous step [like so](https://github.com/Isoaxe/ravenous/blob/master/src/util/searchYelp.js#L5). That's it, you've implemented the server!
+9. Prepend the API request in your application code with the server URL as generated in the previous step [like so](https://github.com/Isoaxe/ravenous/blob/master/src/util/searchYelp.js#L10). That's it, you've implemented the server!
 
 **Tip:** Railway uses a Procfile just like Heroku. This has already been created in this repository. This instructs the Railway Node app on how to start the server.
