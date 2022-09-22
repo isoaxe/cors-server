@@ -1,3 +1,7 @@
+# `IMPORTANT NOTICE`
+
+### Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month after that.
+
 ## Implementation using Heroku
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
