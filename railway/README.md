@@ -13,3 +13,5 @@ _Note:_ Implementing the server via Railway uses the same code as with Heroku, s
 9. Prepend the API request in your application code with the server URL as generated in the previous step [like so](https://github.com/Isoaxe/ravenous/blob/master/src/util/searchYelp.js#L10). That's it, you've implemented the server!
 
 **Tip:** Railway uses a Procfile just like Heroku. This has already been created in this repository. This instructs the Railway Node app on how to start the server.
+
+**Tip:** Continious deployment means that subsequent updates to the linked GitHub repo automatically deploy to Railway. No need to manually deploy!
