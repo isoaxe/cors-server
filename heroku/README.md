@@ -1,10 +1,3 @@
-# CORS-Anywhere Server
-
-[CORS-Anywhere](https://www.npmjs.com/package/cors-anywhere) is a Node.js package that adds [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers to a proxied request. This is useful when the API provider does not natively support CORS. Without altering the headers, a request to such a provider would cause an error and prevent the request from being fulfilled.
-
-**Tip:** You can test out the server in this repo locally by using port 3000 in your application and prepending `https://private-cors-server.herokuapp.com/` to your API request [like this](https://github.com/Isoaxe/ravenous/blob/master/src/util/searchYelp.js#L5). However, if you want to use for a hosted website, then follow the implementation steps below.
-
-
 ## Implementation
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
