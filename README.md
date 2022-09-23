@@ -10,12 +10,12 @@ The server can be implemented in one of three ways. Is is recommended to use Rai
 
 ### Heroku
 
-Navigate to the `heroku` directory and follow the steps within the `README.md` therein. Note that Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month thereafter.
+Navigate to the [`heroku`](https://github.com/Isoaxe/cors-server/tree/master/heroku) directory and follow the steps within the `README.md` therein. Note that Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month thereafter.
 
 ### Firebase
 
-Navigate to the `functions` directory and follow the steps within the `README.md` therein. Note that there continues to be some issues when hosting remote using Firebase functions. Until these are resolved, it is advised that you use the `railway` implementation.
+Navigate to the [`functions`](https://github.com/Isoaxe/cors-server/tree/master/functions) directory and follow the steps within the `README.md` therein. Note that there continues to be some issues when hosting remote using Firebase functions. Until these are resolved, it is advised that you use the `railway` implementation.
 
 ### Railway
 
-Navigate to the `railway` directory and follow the steps within the `README.md` therein. This is the recommended implementation due to the issues outlined in the others above.
+Navigate to the [`railway`](https://github.com/Isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. This is the recommended implementation due to the issues outlined in the others above.
