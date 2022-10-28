@@ -1,9 +1,3 @@
-# `IMPORTANT NOTICE`
-
-### There are some issues with the remote-hosted instance of `cors-server` using Firebase functions. It only works when locally hosted for now.
-
-### It is advised to implement the Railway version of this server instead. To do so, follow the `README` in the `railway` directory.
-
 ## Implementation using Firebase
 
 Implementation of a basic CORS-Anywhere server is very straightforward. Simply do the following:
