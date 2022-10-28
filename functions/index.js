@@ -1,5 +1,6 @@
 const functions = require('firebase-functions');
 const corsAnywhere = require('cors-anywhere');
+const cors = require("cors");
 
 const corsServer = corsAnywhere.createServer({
     originWhitelist: [
@@ -15,6 +16,10 @@ const corsServer = corsAnywhere.createServer({
     removeHeaders: ['cookie', 'cookie2']
 });
 
+const corsHandler = cors({ origin: true });
+
 exports.proxy = functions.https.onRequest((request, response) => {
-    corsServer.emit('request', request, response);
+    corsHandler(request, response, () => {
+      corsServer.emit('request', request, response);
+    })
 });
