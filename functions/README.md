@@ -1,9 +1,3 @@
-# `IMPORTANT NOTICE`
-
-###
-
-
-
 
 ## Implementation using Firebase
 
