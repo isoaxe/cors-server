@@ -6,7 +6,7 @@
 
 ## Implementation
 
-The server can be implemented in one of three ways. Is is recommended to use Railway currently.
+The server can be implemented in one of three ways. Is is recommended to use Firebase.
 
 ### Heroku
 
