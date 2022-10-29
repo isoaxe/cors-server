@@ -1,3 +1,7 @@
+# `IMPORTANT NOTICE`
+
+### The monthly allowance that comes with the free tier of Railway does not appear to last the entire month. Therefore there will be downtime for a few days each month if used continually.
+
 ## Implementation using Railway
 
 _Note:_ Implementing the server via Railway uses the same code as with Heroku, so there is no need to duplicate it within this directory.

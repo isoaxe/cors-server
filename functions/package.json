@@ -1,6 +1,6 @@
 {
   "name": "cors-server",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A server implementing the cors-anywhere node package",
   "scripts": {
     "serve": "firebase emulators:start --only functions",
@@ -15,7 +15,7 @@
   "dependencies": {
     "cors-anywhere": "^0.4.4",
     "firebase-admin": "^11.0.1",
-    "firebase-functions": "^3.18.0"
+    "firebase-functions": "^4.0.1"
   },
   "devDependencies": {
     "firebase-functions-test": "^0.2.0"
