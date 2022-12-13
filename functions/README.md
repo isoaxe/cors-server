@@ -21,7 +21,7 @@ On _redeployment_ of the cloud function, the following error may be encountered:
 
 `HTTP Error: 400, Could not update Cloud Run service proxy. spec.template.spec.containers[0].resources.limits.cpu: Invalid value specified for cpu.`
 
-There may be two ways to resolve this. The first way is to simply delete the function via the Firebase console in the browser. Then redeploy, it will fail. A second or third redeployment should be successful.
+There may be two ways to resolve this. The first way is to simply delete the function via the Firebase console in the browser. Then redeploy, it will fail. A second or third redeployment should be successful. The function name does not change on redeployment, so don't worry about needing to update it in the apps that use the proxy.
 
 ---
 
