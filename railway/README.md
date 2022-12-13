@@ -1,6 +1,6 @@
 # `IMPORTANT NOTICE`
 
-### The monthly allowance that comes with the free tier of Railway does not appear to last the entire month. Therefore there will be downtime for a few days each month if used continually.
+### There is a 500 hour monthly allowance with the free tier on Railway. This equates to about 21 days is used continually. The server will be down for the remainder of the month.
 
 ## Implementation using Railway
 
