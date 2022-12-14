@@ -8,13 +8,13 @@
 
 The server can be implemented in one of three ways. Is is recommended to use Firebase.
 
-### Heroku
-
-Navigate to the [`heroku`](https://github.com/Isoaxe/cors-server/tree/master/heroku) directory and follow the steps within the `README.md` therein. Note that Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month thereafter.
-
 ### Firebase
 
 Navigate to the [`functions`](https://github.com/Isoaxe/cors-server/tree/master/functions) directory and follow the steps within the `README.md` therein. This is the recommended implementation due to the issues outlined in the others above and below.
+
+### Heroku
+
+Navigate to the [`heroku`](https://github.com/Isoaxe/cors-server/tree/master/heroku) directory and follow the steps within the `README.md` therein. Note that Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month thereafter.
 
 ### Railway
 
