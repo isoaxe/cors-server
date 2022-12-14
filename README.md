@@ -18,4 +18,4 @@ Navigate to the [`heroku`](https://github.com/Isoaxe/cors-server/tree/master/her
 
 ### Railway
 
-Navigate to the [`railway`](https://github.com/Isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. Unfortunately the free allowance gets reached before the end of the month, so best to go with Firebase.
+Navigate to the [`railway`](https://github.com/Isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. Unfortunately the free monthly allowance gets reached after 500 hours (about 21 days) under the free [_Trial_](https://railway.app/pricing) plan, so best to go with Firebase.
