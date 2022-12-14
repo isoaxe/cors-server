@@ -1,3 +1,11 @@
+# Build files
 node_modules/
+
+# Fly.io build files
+.dockerignore
+Dockerfile
+fly.toml
+
+# Misc
 *.log
 .DS_Store
