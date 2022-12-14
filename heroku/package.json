@@ -1,13 +1,14 @@
 {
   "name": "cors-server",
-  "version": "1.0.0",
-  "description": "A server implementing the cors-anywhere node package",
+  "version": "1.1.0",
+  "description": "A reverse proxy that adds CORS headers to a HTTP request",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "deploy": "git push heroku master --force"
+    "deploy-heroku": "git push heroku master --force",
+    "deploy-fly": "fly deploy"
   },
   "author": "Lucas O'Connell",
   "license": "ISC",
