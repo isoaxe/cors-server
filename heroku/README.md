@@ -1,6 +1,6 @@
 # `IMPORTANT NOTICE`
 
-### Heroku will [withdraw](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) will be $7 per Dyno per month after that.
+### Heroku has [withdrawn](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free Dynos on 28th of November 2022. The [cost](https://www.heroku.com/pricing) is now 1¢ per hour on the _Basic_ plan billed on a _pro rata_ basis.
 
 ## Implementation using Heroku
 
