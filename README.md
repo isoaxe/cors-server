@@ -9,8 +9,9 @@
 
 Below are the URLs that can be used for local testing on ports `3000` or `5000`.
 
-Firebase: `https://proxy-ibmasyzzya-uc.a.run.app/`
-Fly.io: `https://cors-server.fly.dev/`
+**Firebase:** `https://proxy-ibmasyzzya-uc.a.run.app/`
+
+**Fly.io:** `https://cors-server.fly.dev/`
 
 
 ## Implementation
