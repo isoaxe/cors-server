@@ -2,15 +2,29 @@
 
 [CORS-Anywhere](https://www.npmjs.com/package/cors-anywhere) is a Node.js package that adds [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers to a proxied request. This is useful when the API provider does not natively support CORS. Without altering the headers, a request to such a provider would cause an error and prevent the request from being fulfilled.
 
-**Tip:** You can test out the server in this repo locally by using ports `3000` or `5000` in your application and prepending `https://proxy-ibmasyzzya-uc.a.run.app/` to your API request [like this](https://github.com/isoaxe/ravenous/blob/master/src/util/searchYelp.js#L10). You can also test your API endpoints with `cors-server` in the remote environment [here](https://test-my-api-endpoint.web.app). If you want to host your own server, follow the steps below.
+**Tip:** You can test out the server in this repo locally by using ports `3000` or `5000` in your application and prepending one of the proxy URLs listed below to your API request [like this](https://github.com/isoaxe/ravenous/blob/master/src/util/searchYelp.js#L10). You can also test your API endpoints with `cors-server` in the remote environment [here](https://test-my-api-endpoint.web.app). If you want to host your own server, follow the steps in the Implementation section below.
+
+
+## Proxy URLs
+
+Below are the URLs that can be used for local testing on ports `3000` or `5000`.
+
+Firebase: `https://proxy-ibmasyzzya-uc.a.run.app/`
+Fly.io: `https://cors-server.fly.dev/`
+
 
 ## Implementation
 
-The server can be implemented in one of three ways. Is is recommended to use Firebase.
+The server can be implemented in one of four ways. Is is recommended to use Firebase or Fly.io.
+
 
 ### Firebase
 
-Navigate to the [`functions`](https://github.com/isoaxe/cors-server/tree/master/functions) directory and follow the steps within the `README.md` therein. This is the recommended implementation due to the issues outlined in the others above and below.
+Navigate to the [`functions`](https://github.com/isoaxe/cors-server/tree/master/functions) directory and follow the steps within the `README.md` therein. This is one of the recommended implementations.
+
+### Fly.io
+
+Navigate to the [`fly.io`](https://github.com/isoaxe/cors-server/tree/master/fly.io) directory and follow the steps within the `README.md` therein. This is one of the recommended implementations.
 
 ### Heroku
 
@@ -18,4 +32,4 @@ Navigate to the [`heroku`](https://github.com/isoaxe/cors-server/tree/master/her
 
 ### Railway
 
-Navigate to the [`railway`](https://github.com/isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. Unfortunately the free monthly allowance gets reached after 500 hours (about 21 days) under the free [_Trial_](https://railway.app/pricing) plan, so best to go with Firebase.
+Navigate to the [`railway`](https://github.com/isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. Unfortunately the free monthly allowance gets reached after 500 hours (about 21 days) under the free [_Trial_](https://railway.app/pricing) plan, so best to go with one of the other options.
