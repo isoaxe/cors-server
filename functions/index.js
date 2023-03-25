@@ -6,6 +6,8 @@ const corsServer = corsAnywhere.createServer({
     originWhitelist: [
       'http://localhost:3000',
       'http://localhost:5000',
+      'https://zafkiel.cn',
+      'https://xlgame.xyz',
       'https://portfolio-ravenous.web.app',
       'https://portfolio-ravenous.firebaseapp.com',
       'https://test-my-api-endpoint.web.app',
