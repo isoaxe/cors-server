@@ -17,7 +17,7 @@ const corsServer = corsAnywhere.createServer({
 
 const corsHandler = cors({ origin: true });
 
-exports.proxy = onRequest((request, response) => {
+exports.proxy = onRequest({ maxInstances: 10 }, (request, response) => {
     corsHandler(request, response, () => {
       corsServer.emit('request', request, response);
     })
