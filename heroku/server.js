@@ -10,7 +10,7 @@ corsProxy.createServer({
       'http://localhost:3000',
       'http://localhost:5000',
       'https://portfolio-ravenous.web.app',
-      'https://portfolio-ravenous.firebaseapp.com/',
+      'https://portfolio-ravenous.firebaseapp.com',
       'https://test-my-api-endpoint.web.app',
       'https://test-my-api-endpoint.firebaseapp.com'
     ],
