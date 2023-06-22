@@ -1,6 +1,6 @@
 {
   "name": "cors-server",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A reverse proxy that adds CORS headers to a HTTP request",
   "main": "server.js",
   "scripts": {
