@@ -16,7 +16,7 @@ Below are the URLs that can be used for local testing on ports `3000` or `5000`.
 
 ## Implementation
 
-The server can be implemented in one of four ways. Is is recommended to use Firebase or Fly.io.
+The server can be implemented in one of three ways. Is is recommended to use Firebase or Fly.io.
 
 
 ### Firebase
@@ -30,7 +30,3 @@ Navigate to the [`fly.io`](https://github.com/isoaxe/cors-server/tree/master/fly
 ### Heroku
 
 Navigate to the [`heroku`](https://github.com/isoaxe/cors-server/tree/master/heroku) directory and follow the steps within the `README.md` therein. Note that Heroku has [withdrawn](https://devcenter.heroku.com/articles/free-dyno-hours) provision of free dynos as of 28th of November 2022. The [cost](https://www.heroku.com/pricing) is now $5 for 1,000 dyno hours per month on the _Eco_ plan that can be used across multiple apps. If this is your only Heroku project, then a potentially much cheaper option is the _Basic_ plan that is only 1¢ per hour. This is billed on a _pro rata_ basis, so you only pay when the server is active. Even if on 24/7, this would only be $7 per month.
-
-### Railway
-
-Navigate to the [`railway`](https://github.com/isoaxe/cors-server/tree/master/railway) directory and follow the steps within the `README.md` therein. Unfortunately the free monthly allowance gets reached after 500 hours (about 21 days) under the free [_Trial_](https://railway.app/pricing) plan, so best to go with one of the other options.
